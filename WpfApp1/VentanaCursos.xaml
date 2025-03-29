@@ -13,12 +13,12 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="Nombre:" FontSize="14" FontWeight="Bold" Foreground="#333"
+        <TextBlock Text="Nombres:" FontSize="14" FontWeight="Bold" Foreground="#333"
                    Grid.Row="0" VerticalAlignment="Center"/>
         <TextBox x:Name="txtNombre" Grid.Row="0" Margin="70,5,0,5" Width="180" Height="25"
                  FontSize="14" BorderBrush="#BDBDBD" BorderThickness="1" Padding="5"/>
 
-        <TextBlock Text="Apellido:" FontSize="14" FontWeight="Bold" Foreground="#333"
+        <TextBlock Text="Apellidos:" FontSize="14" FontWeight="Bold" Foreground="#333"
                    Grid.Row="1" VerticalAlignment="Center"/>
         <TextBox x:Name="txtApellido" Grid.Row="1" Margin="70,5,0,5" Width="180" Height="25"
                  FontSize="14" BorderBrush="#BDBDBD" BorderThickness="1" Padding="5"/>
